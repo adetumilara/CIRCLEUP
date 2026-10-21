@@ -15,8 +15,6 @@ contracts/target/
 artifacts/
 
 # Environment files
-.env
-.env.local
 .env.*.local
 indexer/.env
 app/.env.local
@@ -35,7 +33,6 @@ yarn-error.log*
 Thumbs.db
 
 # Editor
-.vscode/settings.json
 *.suo
 *.ntvs*
 *.njsproj
@@ -47,3 +44,4 @@ contracts/target/
 # Note: Cargo.lock IS committed (pinned deps for CI reproducibility)
 
 .cargo-home-temp/
+config.bat
